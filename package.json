@@ -1,7 +1,7 @@
 {
 	"name": "awesome-portfolio",
 	"private": true,
-	"homepage": "https://aoda-dev.github.io/",
+	"homepage": ".",
 	"version": "0.0.0",
 	"scripts": {
 		"dev": "vite",
