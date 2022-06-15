@@ -50,4 +50,4 @@ const qe=function(){const t=document.createElement("link").relList;if(t&&t.suppo
 				</nav>
 			</div>
 		</div>	
-	`,new Promise(n=>{gt(n)})},ht=()=>new Promise((e,t)=>{window.addEventListener("scroll",()=>{const n=window.scrollY;w({targets:".hero",translateY:`${n*.05}%`}),w({targets:".projects",translateY:`-${n*.07}%`})})}),ve=".app",vt=async()=>{await ft(ve),await pt(ve),await ht()};setTimeout(vt,1500);
+	`,new Promise(n=>{gt(n)})},ht=()=>new Promise((e,t)=>{window.addEventListener("scroll",()=>{const n=window.scrollY;w({targets:".hero",translateY:`${n*.05}%`}),w({targets:".projects",translateY:`-${n*.07}%`})})}),ve=".app",vt=async()=>{await document.fonts.load('1rem "Montserrat'),await ft(ve),await pt(ve),await ht()};setTimeout(vt,1500);
