@@ -40,17 +40,14 @@ const qe=function(){const t=document.createElement("link").relList;if(t&&t.suppo
 		</div>
 
 		<div class="projects w-screen h-screen bg-white">
-
-			<div class="hero-header absolute top-0 flex container py-10 px-32 justify-between">
+			<div class="hero-header flex container py-10 px-32 justify-between">
 				<span class="hero-number text-black text-3xl font-main">02/04</span>
 
 				<nav class="hero-nav text-sm font-main">
-					<ul class="flex text-black space-x-12 list-disc">
+					<ul class="flex text-black/70 space-x-12 list-disc">
 						<li><a href="#" class="hover:text-black/80">Projects</a></li>
-						
 					</ul>
 				</nav>
-			
 			</div>
 		</div>	
 	`,new Promise(n=>{gt(n)})},ht=()=>new Promise((e,t)=>{window.addEventListener("scroll",()=>{const n=window.scrollY;w({targets:".hero",translateY:`${n*.05}%`}),w({targets:".projects",translateY:`-${n*.07}%`})})}),ve=".app",vt=async()=>{await ft(ve),await pt(ve),await ht()};setTimeout(vt,1500);
