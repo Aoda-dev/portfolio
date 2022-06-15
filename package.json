@@ -1,19 +1,20 @@
 {
-  "name": "awesome-portfolio",
-  "private": true,
-  "version": "0.0.0",
-  "scripts": {
-    "dev": "vite",
-    "build": "vite build",
-    "preview": "vite preview"
-  },
-  "devDependencies": {
-    "autoprefixer": "^10.4.7",
-    "postcss": "^8.4.14",
-    "tailwindcss": "^3.1.3",
-    "vite": "^2.9.9"
-  },
-  "dependencies": {
-    "animejs": "^3.2.1"
-  }
+	"name": "awesome-portfolio",
+	"private": true,
+	"homepage": "https://aoda-dev.github.io/",
+	"version": "0.0.0",
+	"scripts": {
+		"dev": "vite",
+		"build": "vite build",
+		"preview": "vite preview"
+	},
+	"devDependencies": {
+		"autoprefixer": "^10.4.7",
+		"postcss": "^8.4.14",
+		"tailwindcss": "^3.1.3",
+		"vite": "^2.9.9"
+	},
+	"dependencies": {
+		"animejs": "^3.2.1"
+	}
 }
