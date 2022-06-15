@@ -81,17 +81,14 @@ export const hero = (el) => {
 		</div>
 
 		<div class="projects w-screen h-screen bg-white">
-
-			<div class="hero-header absolute top-0 flex container py-10 px-32 justify-between">
+			<div class="hero-header flex container py-10 px-32 justify-between">
 				<span class="hero-number text-black text-3xl font-main">02/04</span>
 
 				<nav class="hero-nav text-sm font-main">
-					<ul class="flex text-black space-x-12 list-disc">
+					<ul class="flex text-black/70 space-x-12 list-disc">
 						<li><a href="#" class="hover:text-black/80">Projects</a></li>
-						
 					</ul>
 				</nav>
-			
 			</div>
 		</div>	
 	`
