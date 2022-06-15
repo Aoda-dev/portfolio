@@ -15,6 +15,7 @@ function start(resolve) {
 		.add(
 			{
 				targets: '.hero-square',
+				background: '#27272a',
 				duration: 1400,
 				rotate: [0, 45],
 			},
@@ -72,7 +73,7 @@ export const hero = (el) => {
 				</nav>
 			</div>
 
-			<div class="hero-square relative flex items-center justify-center w-[27rem] h-[27rem] bg-zinc-800">
+			<div class="hero-square relative flex items-center justify-center w-[27rem] h-[27rem] bg-zinc-500 shadow-2xl">
 				<div class="absolute -rotate-45 text-center space-y-4">
 					<span class="hero-text text-white text-5xl font-main">Tolegen Kulseitov</span>
 					<p class="hero-subtext font-main text-rose-500/90 font-medium">UI UX DESIGNER AND DEVELOPER</p>

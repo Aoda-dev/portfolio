@@ -1,5 +1,6 @@
 import anime from 'animejs'
 
+// TODO: add more sections
 export const scrollInit = () => {
 	return new Promise((resolve, reject) => {
 		window.addEventListener('scroll', () => {
