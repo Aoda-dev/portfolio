@@ -46,9 +46,13 @@ function start(resolve) {
 				duration: 1000,
 
 				complete: function () {
-					const node = document.querySelector('html')
-					node.classList.remove('overflow-hidden')
-					node.classList.add('overflow-x-hidden')
+					const htmlNode = document.querySelector('html')
+					const appNode = document.querySelector('.app')
+
+					htmlNode.classList.remove('overflow-hidden')
+					htmlNode.classList.add('overflow-x-hidden')
+
+					appNode.classList.remove('overflow-hidden')
 
 					resolve()
 				},
